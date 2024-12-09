@@ -1,0 +1,8 @@
+# Web server configuration
+host = "localhost"
+port = 8080
+debug = true
+
+[logging]
+level = "info"
+file = "server.log"

@@ -1,0 +1,6 @@
+# Database configuration
+host = "127.0.0.1"
+port = 5432
+username = "admin"
+password = "secret"
+databases = ["db1", "db2", "db3"]
