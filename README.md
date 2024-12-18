@@ -23,6 +23,23 @@ debug = true
 user = "admin"
 password = "secret"
 ```
+### Установка зависимостей
+```bash
+pip install unittest
+pip install toml
+```
+
+### Запуск проекта
+```bash
+python cli.py <examples/web_server_config.toml
+```
+###Запуск тестов
+```bash
+python tests.py
+```
+
+
+
 ### Скриншоты 
 ![Результат работы](screen/first.png)
 ![Результат тестированния](screen/second.png)
